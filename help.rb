@@ -4,3 +4,4 @@
 # puts arr.max(1).sum
 array = ["a", "b", "c"]
 array.map { |string| puts string.upcase }
+puts "manish"
