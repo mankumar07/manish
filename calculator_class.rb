@@ -9,7 +9,7 @@ module Substraction
     end 
 end
 module Multiplication 
-    def multiplication 
+    def multiplication
         puts "The multiplication  of #{@first_value} and #{@second_value} is :- #{@first_value*@second_value}"
     end 
 end
@@ -29,7 +29,7 @@ class Calculator
 
     rescue Exception => e
         puts e.message
-        puts "please enter valid number to division"
+        puts "Please enter valid number for division"
     end
     end 
 end
