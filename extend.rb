@@ -6,9 +6,9 @@ end
 
 class B
     extend A
-    # def show 
-    #     puts "hello i am class method"
-    # end 
+    def show 
+        puts "hello i am class method"
+    end 
 end
 
 print B.ancestors  #[B, Object, Kernel, BasicObject]
